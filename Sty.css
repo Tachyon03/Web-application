@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    background-image: url("avenue-g7a7672255_1920.jpg");
+    background-position: auto;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.frm{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 40vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(48, 92, 92);
+    width: auto;
+    height: auto;
+}   
+
+.frm input{
+    height: 20px;
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: aquamarine;
+    border: 3px seagreen solid;
+}
+
+.frm ::placeholder{
+    color: aliceblue;
+    size: 5px;
+}
+
+.frm #bt{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    justify-self: center;
+    float: auto;
+    margin-left: 25%;
+    cursor: pointer;
+}
+
+.bt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
