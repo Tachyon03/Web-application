@@ -11,7 +11,7 @@
     {
         var username=document.getElementById("name");
         var password=document.getElementById("ipass");
-        let len=password.length;
+        let len=password.value.length;
         
         if(username.value==""||username.value==null)
         {
@@ -83,7 +83,7 @@
                 <div class="form" id="error">
                     <h4>Already a user? login here</h4>
                     <form id="frm" onsubmit="return validate()">
-                        <input type="text" id="name" name="name" placeholder="Enter Email Here">
+                        <input type="email" id="name" name="name" placeholder="Enter Email Here" required>
                         <input type="password" id="ipass" name="pass" placeholder="Enter Password Here">
                         <button class="btnn" type="submit"><a href="#">Login</a></button>
                     </form>        
